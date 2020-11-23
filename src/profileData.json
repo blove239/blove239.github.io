@@ -1,0 +1,142 @@
+{
+    "skills": [
+        {
+            "name": "ReactJS"
+        },
+        {
+            "name": "Node.js"
+        },
+        {
+            "name": "Python"
+        },
+        {
+            "name": "JavaScript"
+        },
+        {
+            "name": "Socket.io"
+        },
+        {
+            "name": "Express.js"
+        },
+        {
+            "name": "bash"
+        },
+        {
+            "name": "MongoDB"
+        },
+        {
+            "name": "git"
+        },
+        {
+            "name": "HTML5"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "CSS"
+        },
+        {
+            "name": "Heroku"
+        },
+        {
+            "name": "REST"
+        },
+        {
+            "name": "OAuth"
+        },
+        {
+            "name": "Bootstrap"
+        }
+    ],
+    "workExperience": [
+        {
+            "jobTitle": "Front Desk Manager",
+            "company": "Joe Rockheads Indoor Rock Climbing",
+            "location": "Toronto, Ontario",
+            "date": "March 2019 to August 2020",
+            "duties": [
+                "Ensure consistent customer experience across all staff",
+                "Inventory Management for food, retail and cleaning supplies",
+                "Produce reports, maps and analyze key gym performance metrics",
+                "Use gym management software API for custom scripts",
+                "Schedule group bookings"
+            ]
+        },
+        {
+            "jobTitle": "Bike Courier",
+            "company": "UberEats & Foodera",
+            "location": "Toronto, Ontario",
+            "date": "August 2017 to August 2020",
+            "duties": [
+                "Deliver food by bicycle"
+            ]
+        },
+        {
+            "jobTitle": "Youth Climbing Coach",
+            "company": "Grand River Rocks",
+            "location": "Kitchener, Ontario",
+            "date": "October 2016 to December 2016",
+            "duties": [
+                "Coached children aged 6 to 10 for 8-week Rubble Rebels climbing course",
+                "Provided training on introductory climbing techniques",
+                "Ensured safety, mentored and provided encouragement to children"
+            ]
+        },
+        {
+            "jobTitle": "Environmental Analyst",
+            "company": "Environment Canada",
+            "location": "Ottawa, Ontario",
+            "date": "September 2014 to December 2014",
+            "duties": [
+                "Developed Python script automating collection of Polar Operational Environmental Satellites statistics",
+                "Compared ice classification geospatial products, produced a report documenting their reliability",
+                "Studied and observed the infrastructure that receives, stores and displays imagery to meteorologists",
+                "Collected user needs for implementation of receiving data from a new weather satellite"
+            ]
+        },
+        {
+            "jobTitle": "Accessibility and Technology Support Technician",
+            "company": "University of Waterloo Library",
+            "location": "Waterloo, Ontario",
+            "date": "January 2014 to April 2014",
+            "duties": [
+                "Created a report “Accessibility in Map and GIS Libraries” published in ACMLA bulletin Vol. 146",
+                "Presented to fellow staff members to increase the accessibility of their presentations",
+                "Requested alternate format documents and textbooks to meet student’s accessibility needs",
+                "Engaged with students in a positive and friendly manner, employing techniques learned from AODA",
+                "Provided technical support and circulation services to library patrons"
+            ]
+        },
+        {
+            "jobTitle": "Geomatics Technician and Survey Assistant",
+            "company": "Syncrude Canada",
+            "location": "Fort McMurray, Alberta",
+            "date": "May 2013 to August 2013",
+            "duties": [
+                "Performed as-built surveys in Mildred Lake and Aurora mine sites, safely and efficiently",
+                "Collected and organized spatial data using RTK assisted GNSS receiver, rod and level & total station",
+                "Set up precise control for a survey of a marshy reclamation area",
+                "Produced a report exploring the implementation of automated bulldozer technology"
+            ]
+        },
+        {
+            "jobTitle": "Geomatics Technologist Assistant",
+            "company": "MTO",
+            "location": "St. Catharines, Ontario",
+            "date": "September 2012 to December 2012",
+            "duties": [
+                "Quality assured AutoCAD Digital Terrain maps by crosschecking digital and print aerial imagery",
+                "Verified and edited attribute consistency of the Ontario Road Network",
+                "Devised a method to analyze GPS, and other data collected from snow plows",
+                "Accompanied central Ontario’s survey crew observing and supporting them in routine highway surveys",
+                "Produced maps displaying the vertical and horizontal displacement of survey monuments in Ontario"
+            ]
+        }
+    ],
+    "education": "Bachelor of Environmental Studies in Geomatics, Minor in Computer Science, Diploma of Excellence in GIS",
+    "aboutMe": [
+        "I love solving challenging problems in elegant ways. My primary focus is in full stack software development, UX and design. I am excellent at collaboration, team-work and clear communication. I am a life-long learner, who is constantly engaging in the latest web technologies and techniques.",
+        "In my freetime I ride my bike, play competitive first person video games with friends,  like CounterStrike:Global Offensive and spend time with my family."
+    ]
+}
