@@ -5,7 +5,7 @@ import TypingTestScreenCap from '../images/typing test screenshot.png';
 const Projects = () => (
   <div className='container my-5 mx-auto'>
     <div className='row justify-content-center'>
-      <div className='col-lg-8'>
+      <div className='col-lg-11'>
         <h1>Projects</h1>
         <Thumbnail
           link='https://blove239.github.io/thetypingtest/'

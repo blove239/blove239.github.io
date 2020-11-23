@@ -8,15 +8,14 @@ const About = () => {
   return (
     <div className='container my-5 mx-auto'>
       <div className='row justify-content-center'>
-        <div className='col-lg-8'>
-          <h1>Skills</h1>
-          <h3 className='text-secondary'>
+        <div className='col-lg-11'>
+          <h1 className='mb-0'>Skills</h1>
+          <h3 className='text-secondary mb-4'>
             {skills.map((data, index) => (
               skills.length - 1 === index ? data.name : `${data.name}, `
             ))}
           </h3>
-
-          <h1>Work Experience</h1>
+          <h1 className='mb-1'>Work Experience</h1>
           <div>
             {workExperience.map((data) => (
               <div>
@@ -36,8 +35,7 @@ const About = () => {
               </div>
             ))}
           </div>
-
-          <h1>Education</h1>
+          <h1 className='mb-0'>Education</h1>
           <h3 className='text-secondary'>
             {education}
           </h3>
