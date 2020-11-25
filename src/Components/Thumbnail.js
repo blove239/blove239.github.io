@@ -6,10 +6,12 @@ const Thumbnail = ({ image, link, title, description }) => (
     <span className='project-title'>{title}</span>
     {' – '}
     <span className='project-description'>{description}</span>
-    <div className='text-center'>
-      <a href={link}>
-        <img className='img-fluid project-image' src={image} alt='Typing Test made with React' />
-      </a>
+    <div className='row justify-content-center'>
+      <div className='text-center col-lg-5'>
+        <a href={link}>
+          <img className='img-fluid project-image' src={image} alt='Typing Test made with React' />
+        </a>
+      </div>
     </div>
   </div>
 );

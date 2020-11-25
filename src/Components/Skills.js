@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import profileData from '../profileData.json';
 
-const About = () => {
+const Skills = () => {
   const [skills] = useState(profileData.skills);
   const [workExperience] = useState(profileData.workExperience);
   const [education] = useState(profileData.education);
@@ -9,7 +9,7 @@ const About = () => {
     <div className='container my-5 mx-auto'>
       <div className='row justify-content-center'>
         <div className='col-lg-11'>
-          <h1 className='mb-0'>Skills</h1>
+          <h1 className='mb-1'>Skills</h1>
           <h3 className='text-secondary mb-4'>
             {skills.map((data, index) => (
               skills.length - 1 === index ? data.name : `${data.name}, `
@@ -35,7 +35,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          <h1 className='mb-0'>Education</h1>
+          <h1 className='mb-1'>Education</h1>
           <h3 className='text-secondary'>
             {education}
           </h3>
@@ -45,4 +45,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Skills;

@@ -3,7 +3,7 @@
 } 
 
 .portrait {
-  width: 70%;
+  width: 60%;
   border-radius: 8px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .project-image {
-  width: 80%;
+  width: 90%;
   margin: 10px;
   border-radius: 8px;
 }
