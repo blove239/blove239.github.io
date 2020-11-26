@@ -8,7 +8,7 @@ const Projects = () => (
       <div className='col-lg-11'>
         <h1>Projects</h1>
         <Thumbnail
-          link='https://blove239.github.io/thetypingtest/'
+          link='https://www.brandonlove.ca/thetypingtest/'
           image={TypingTestScreenCap}
           title='Typing Test'
           description='A typing test built with React'

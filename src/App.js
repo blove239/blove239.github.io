@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <div className='App'>
-      <BrowserRouter>
+      <HashRouter>
         <Navbar
           onClick={closeNav}
           onToggle={setNavOnToggle}
@@ -60,7 +60,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/skills' component={Skills} />
         </div>
-      </BrowserRouter>
+      </HashRouter>
       <Footer />
     </div>
   );
