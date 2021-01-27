@@ -43,6 +43,9 @@
             "name": "REST"
         },
         {
+            "name":"AWS"
+        },
+        {
             "name": "OAuth"
         },
         {

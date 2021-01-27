@@ -8,10 +8,10 @@ const Projects = () => (
       <div className='col-lg-11'>
         <h1>Projects</h1>
         <Thumbnail
-          link='https://www.brandonlove.ca/thetypingtest/'
+          link='http://typingtest.brandonlove.ca/'
           image={TypingTestScreenCap}
           title='Typing Test'
-          description='A typing test built with React'
+          description='A full stack typing test with leaderboard functionality. Uses React for the front end. NeDB, Express.js and Node.js for the backend. Hosted on an Amazon EC2 instance.'
         />
       </div>
     </div>

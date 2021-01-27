@@ -22,7 +22,7 @@ const Footer = () => (
         {' '}
       </span>
       <span className='copyright align-middle'>
-        2020 Brandon Love
+        2021 Brandon Love
       </span>
 
     </div>
