@@ -50,6 +50,15 @@
         },
         {
             "name": "Bootstrap"
+        },
+        {
+            "name": "Passport.js"
+        },
+        {
+            "name": "Redis"
+        },
+        {
+            "name": "Axios"
         }
     ],
     "workExperience": [
