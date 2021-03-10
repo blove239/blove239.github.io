@@ -10,10 +10,10 @@ const Projects = () => (
       <div className='col-lg-11'>
         <h1>Projects</h1>
         <Thumbnail
-          link='https://typingtest.brandonlove.ca/'
-          image={TypingTestScreenCap}
-          title='Typing Test'
-          description='A full stack typing test with leaderboard functionality. Uses React for the front end. NeDB, Express.js and Node.js for the backend.'
+          link='https://iceclimbweather.brandonlove.ca/'
+          image={IceClimbScreenCap}
+          title='Ice Climbing Weather Tool'
+          description='A tool for assessing ice climbing weather conditions. Uses OpenWeatherMap API for weather data.'
         />
         <Thumbnail
           link='https://imagerepo.brandonlove.ca/'
@@ -22,10 +22,10 @@ const Projects = () => (
           description='A simple image hosting repository. Uses Passport.js for user auth, SQLite for storage, served with Express.js.'
         />
         <Thumbnail
-          link='https://iceclimbweather.brandonlove.ca/'
-          image={IceClimbScreenCap}
-          title='Ice Climbing Weather Tool'
-          description='A tool for assessing ice climbing weather conditions. Uses OpenWeatherMap API for weather data.'
+          link='https://typingtest.brandonlove.ca/'
+          image={TypingTestScreenCap}
+          title='Typing Test'
+          description='A full stack typing test with leaderboard functionality. Uses React for the front end. NeDB, Express.js and Node.js for the backend.'
         />
       </div>
     </div>
