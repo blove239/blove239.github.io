@@ -1,13 +1,14 @@
 import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import Thumbnail from './Thumbnail';
 import TypingTestScreenCap from '../images/typing test screenshot.png';
 import ImageRepoScreenCap from '../images/imagereposcreenshot.png';
 import IceClimbScreenCap from '../images/ice climb weather tool.png';
 
 const Projects = () => (
-  <div className='container my-5 mx-auto'>
-    <div className='row justify-content-center'>
-      <div className='col-lg-11'>
+  <Container className='my-5 mx-auto'>
+    <Row className='justify-content-center'>
+      <Col lg={11}>
         <h1>Projects</h1>
         <Thumbnail
           link='https://iceclimbweather.brandonlove.ca/'
@@ -27,9 +28,9 @@ const Projects = () => (
           title='Typing Test'
           description='A full stack typing test with leaderboard functionality. Uses React for the front end. NeDB, Express.js and Node.js for the backend.'
         />
-      </div>
-    </div>
-  </div>
+      </Col>
+    </Row>
+  </Container>
 );
 
 export default Projects;

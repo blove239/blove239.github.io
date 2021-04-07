@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import profileData from '../profileData.json';
 
 const Skills = () => {
@@ -6,9 +7,9 @@ const Skills = () => {
   const [workExperience] = useState(profileData.workExperience);
   const [education] = useState(profileData.education);
   return (
-    <div className='container my-5 mx-auto'>
-      <div className='row justify-content-center'>
-        <div className='col-lg-11'>
+    <Container className='my-5 mx-auto'>
+      <Row className='justify-content-center'>
+        <Col lg={11}>
           <h1 className='mb-1'>Skills</h1>
           <h3 className='text-secondary mb-4'>
             {skills.map((data, index) => (
@@ -39,9 +40,9 @@ const Skills = () => {
           <h3 className='text-secondary'>
             {education}
           </h3>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 
