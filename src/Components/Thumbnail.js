@@ -4,7 +4,9 @@ import PropTypes from 'prop-types';
 
 const Thumbnail = ({ image, link, title, description }) => (
   <Container className='text-center my-5'>
-    <span className='project-title'>{title}</span>
+    <a href={link}>
+      <span className='text-dark project-title'>{title}</span>
+    </a>
     {' – '}
     <span className='project-description'>{description}</span>
     <Row className='justify-content-center'>
