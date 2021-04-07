@@ -4,12 +4,19 @@ import Thumbnail from './Thumbnail';
 import TypingTestScreenCap from '../images/typing test screenshot.png';
 import ImageRepoScreenCap from '../images/imagereposcreenshot.png';
 import IceClimbScreenCap from '../images/ice climb weather tool.png';
+import SkillTrackerScreenCap from '../images/skill tracker.png';
 
 const Projects = () => (
   <Container className='my-5 mx-auto'>
     <Row className='justify-content-center'>
       <Col lg={11}>
         <h1>Projects</h1>
+        <Thumbnail
+          link='https://simpleskilltracker.herokuapp.com/'
+          image={SkillTrackerScreenCap}
+          title='Skill Tracker'
+          description='A simple gamified skill tracker to help users keep track of their skills.'
+        />
         <Thumbnail
           link='https://iceclimbweather.brandonlove.ca/'
           image={IceClimbScreenCap}
